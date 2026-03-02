@@ -221,6 +221,12 @@ Index(['donor_id', 'development_stage_ontology_term_id',
       dtype='object')
 ```
 
+Don't forget to swich back to the main branch:
+
+```bash
+~/cell2sequence_guide$ git switch -c main
+~/cell2sequence_guide$ git branch
+```
 
 ### Upload de um arquivo de 88 MB
 Agora, vamos ver como fazer upload de um arquivo maior que 25 MB, porém menor que 100 MB. Eu crio uma pasta chamada 'under100' para colocar o arquivo 'bladder.h5ad'. Então, executo os comandos abaixo.
