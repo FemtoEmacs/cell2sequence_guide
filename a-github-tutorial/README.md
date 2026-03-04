@@ -276,7 +276,15 @@ In order to connect a local repository with
 GitHub, run this command:
 
 ```bash
-ssh -T git@github.com
+~/c2s-yale/cell2sentence_guide$ git remote -v
+origin	https://github.com/FemtoEmacs/cell2sentence_guide (fetch)
+origin	https://github.com/FemtoEmacs/cell2sentence_guide (push)
+~/c2s-yale/cell2sentence_guide$ git remote set-url origin git@github.com:FemtoEmacs/cell2sequence_guide.git
+~/c2s-yale/cell2sentence_guide$ git remote -v
+origin	git@github.com:FemtoEmacs/cell2sequence_guide.git (fetch)
+origin	git@github.com:FemtoEmacs/cell2sequence_guide.git (push)
+~/c2s-yale/cell2sentence_guide$ ssh -T git@github.com
+Hi FemtoEmacs! You've successfully authenticated, but GitHub does not provide shell access.
 ```
 
 
