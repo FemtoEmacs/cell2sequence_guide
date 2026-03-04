@@ -273,7 +273,8 @@ is active.
 
 ### If you already have an ssh-key
 In order to connect a local repository with
-GitHub, run this command:
+GitHub, run the command `git remote set-url`
+as shown below:
 
 ```bash
 ~/c2s-yale/cell2sentence_guide$ git remote -v
